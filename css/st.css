@@ -39,7 +39,7 @@ body {
 .main .images .sport a:nth-of-type(2) {
     display: block;
     position: absolute;
-    background-color: blue;
+    /* background-color: blue; */
     width: 500px;
     height: 190px;
     bottom: 3px;
