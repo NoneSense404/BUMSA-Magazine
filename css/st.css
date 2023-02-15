@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    background-color: #322F74;
+}
+
+.main .images {
+    width: 920px;
+    margin: auto;
+}
+
+.main .images img {
+    width: 100%;
+    display: block;
+}
+
+.main .images a {
+    display: block;
+}
+
+/* sport link */
+.main .images .sport {
+    position: relative;
+}
+.main .images .sport a:first-of-type {
+    display: block;
+    position: absolute;
+    /* background-color: red; */
+    width: 126px;
+    height: 118px;
+    bottom: 270px;
+    left: 686px;
+}
+.main .images .sport a:nth-of-type(2) {
+    display: block;
+    position: absolute;
+    background-color: blue;
+    width: 500px;
+    height: 190px;
+    bottom: 3px;
+    left: 215px;
+}
+
+/* Game link */
+.main .images .game {
+    position: relative;
+}
+.main .images .game a:first-of-type {
+    display: block;
+    position: absolute;
+    /* background-color: red; */
+    width: 286px;
+    height: 200px;
+    bottom: 135px;
+    left: 416px;
+}
+
+.main .images .game a:nth-of-type(2) {
+    display: block;
+    position: absolute;
+    /* background-color: blue; */
+    width: 237px;
+    height: 100px;
+    bottom: 560px;
+    left: 660px;
+}
+
+/* modona link  */
+.main .images .modona {
+    position: relative;
+}
+.main .images .modona a {
+    display: block;
+    position: absolute;
+    /* background-color: red; */
+    width: 500px;
+    height: 71px;
+    bottom: 57px;
+    left: 229px;
+}
